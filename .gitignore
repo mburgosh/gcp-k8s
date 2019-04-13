@@ -1,0 +1,75 @@
+# Java compile files #
+*.class
+*.class
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.db
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Log files #
+*.log
+*.log.*
+
+# Eclipse files #
+.buildpath
+.classpath
+.cproject
+.externalToolBuilders/
+.launch
+.loadpath
+.metadata
+.project
+.settings/
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.nak
+*.swp
+*~.nib
+*.pydevproject
+local.properties
+/src/main/resources/rebel.xml
+.springBeans
+
+# IntelliJ Idea files #
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# Maven #
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# NetBeans #
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Windows files #
+Thumbs.db
+Desktop.ini
+
+# OS files #
+.DS_Store
+.svn
+._*
+.Spotlight-V100
+.Trashes
+
+# Jekyll #
+.sass-cache
