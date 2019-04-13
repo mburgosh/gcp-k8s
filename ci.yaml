@@ -14,6 +14,7 @@ spec:
   type: LoadBalancer
   ports:
   - port: 80
+    targetPort: 6500
   selector:
     app: ci
     tier: frontend
